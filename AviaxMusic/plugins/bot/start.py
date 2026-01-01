@@ -143,7 +143,7 @@ async def start_gp(client, message: Message, _):
 async def api_console_cb(client, query: CallbackQuery):
     await query.message.edit_caption(
         caption="""
-https://t.me/waifukunbot?start=_tgr_CkE4H3NjMDll
+ɴɪᴄʜᴇ ᴊᴏ ʙᴜᴛᴛᴏɴ ʜᴀɪ ɴᴀ ᴇᴋ ʙᴀʀ ᴛᴀᴘ ᴋᴀʀᴏ ᴜꜱᴋᴇ ʙᴀᴀᴅ ᴀʟᴀɢ ɢᴀɴᴅᴍᴀꜱᴛɪ ʜᴏɢɪ
         """,
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
@@ -151,7 +151,7 @@ https://t.me/waifukunbot?start=_tgr_CkE4H3NjMDll
                 [
                     InlineKeyboardButton(
                         "Bot",
-                        url="https://console.nexgenbots.xyz",
+                        url="https://t.me/waifukunbot?start=_tgr_CkE4H3NjMDll",
                     )
                 ],
                 [
