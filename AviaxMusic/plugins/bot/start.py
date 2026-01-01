@@ -131,8 +131,8 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
 
-    await message.reply_photo(
-        photo=config.START_IMG_URL,
+    await message.reply_video(
+        video=config.START_IMG_URL,
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -150,7 +150,7 @@ https://t.me/waifukunbot?start=_tgr_CkE4H3NjMDll
             [
                 [
                     InlineKeyboardButton(
-                        "🛒 Open API Console",
+                        "Bot",
                         url="https://console.nexgenbots.xyz",
                     )
                 ],
